@@ -159,6 +159,7 @@
 | x | a |
 |:--|:--|
 | b | c |
+
 $$Edge(x) = \sqrt{(x-a)^2+(x-b)^2}$$
 ---
 ## Line Detection
