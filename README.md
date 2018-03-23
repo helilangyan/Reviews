@@ -46,6 +46,7 @@
 ## Chain Code
 - Def: The chain code of an object(1's) is represented as follow: StartRow, StartCol, Grey-Scale,Direction...(0,1,2...7)
 - Direction
+
 | 3 |2  | 1 |
 |:--|:--|:--|
 | 4 |  | 0 |
@@ -78,6 +79,7 @@
   Step 5: Repeat 3 - 4 until nextP = startPoint
 ```
 - Direction Table
+
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |:--|:--|:--|:--|:--|:--|:--|:--|
 | 6 | 0 | 0 | 2 | 2 | 4 | 4 | 6 |
@@ -107,6 +109,7 @@
 - 2 X 2 Edge Operator (Robert's)
   - 4 Templates
   - p'(i,j) = p(i,j)\*1 + p(i,j)\*-1...
+  
 | +1 | -1 |
 |:--|:--|
 | +1 | -1 |
@@ -126,6 +129,7 @@
 |:--|:--|
 | +1 | -1 |
 - Sobel's Operator 3 X 3 Edge
+
 | +1 | +2 | +1 |
 |:--|:--|:--|
 | 0 | 0 | 0 |
