@@ -166,8 +166,11 @@ $$Edge(x) = \sqrt{(x-a)^2+(x-b)^2}$$
 - Hough Transform
   - does not record location of point, therefore we cannot reconstruct the image from Hough
 - Equation
+
 $$d = \sqrt{x^2+y^2} \times cos(t)$$
+
 $$t = a - arctan(\frac{y}{x}) - \pi/2$$
+
 - Algorithm Steps
 ```
   Step 0: Point list <- given
