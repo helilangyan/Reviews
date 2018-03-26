@@ -22,9 +22,10 @@
   Step 3: j++
   Step 4: if p(i,j) == grey-scale
             count++;
-  Step 5: Repeat 3 - 4 until p(i,j) != grey-scale
+  Step 5: if p(i,j) != grey-scale
+            Repeat 3 - 4 until 
           // no j >= numCols for method 3
-  Step 6: if p(i,j) != grey-scale || j >= numCols
+          else if p(i,j) != grey-scale || j >= numCols
             output count
           if j >= numCols
             i++,
